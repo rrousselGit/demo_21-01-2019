@@ -16,12 +16,15 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_hooks: 0.2.1
+  functional_widget_annotation: 0.3.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
+  functional_widget: 0.4.0
+  build_runner: 1.1.2
   flutter_test:
     sdk: flutter
 

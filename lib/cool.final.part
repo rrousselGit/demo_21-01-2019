@@ -1,0 +1,27 @@
+part of "cool_base.dart";
+
+Widget counter(BuildContext context, {Duration duration}) {
+  final counter = useState(0);
+  final counter2 = useState(0);
+
+  final animatedCounter =
+      useAnimation(useAnimatedInt(counter.value, duration: duration));
+  final animatedCounter2 =
+      useAnimation(useAnimatedInt(counter2.value, duration: duration * 2));
+
+  return Column(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: <Widget>[
+      CounterVisual(
+        animatedCounter,
+        onPressed: () => counter.value += 100,
+      ),
+      CounterVisual(
+        animatedCounter2,
+        onPressed: () => counter2.value += 200,
+      ),
+      Text('Total: ${animatedCounter + animatedCounter2}'),
+    ],
+  );
+}
+

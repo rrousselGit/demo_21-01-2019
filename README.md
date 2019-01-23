@@ -1,3 +1,5 @@
+Slides: https://docs.google.com/presentation/d/1Gs4WMPtj0qwmrOfIflnThfDAg5iusMwctl5GRTZGydA/edit?usp=sharing
+
 A demo using https://github.com/rrousselGit/flutter_hooks and https://github.com/rrousselGit/functional_widget to make a counter application by removing all the code duplicates.
 
 The code showcase both the classical implementation and the one using hooks, for a side-by-side comparison. 

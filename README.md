@@ -1,16 +1,13 @@
-# flutter_demo
+A demo using https://github.com/rrousselGit/flutter_hooks and https://github.com/rrousselGit/functional_widget to make a counter application by removing all the code duplicates.
 
-A new Flutter project.
+The code showcase both the classical implementation and the one using hooks, for a side-by-side comparison. 
 
-## Getting Started
+There's a snapshot of each steps needed for the hook based implementation on `.part` files.
 
-This project is a starting point for a Flutter application.
+THe application behaves as followed:
 
-A few resources to get you started if this is your first Flutter project:
+![demo](demo.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+Before: https://github.com/rrousselGit/demo_21-01-2019/blob/master/lib/counter.dart
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+After: https://github.com/rrousselGit/demo_21-01-2019/blob/master/lib/full.dart
